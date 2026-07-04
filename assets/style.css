@@ -5,9 +5,9 @@
   --ink: #143331;
   --ink-deep: #0D2422;
   --charcoal: #292B27;
-  --gold: #C6AA58;
-  --gold-deep: #806223;
-  --terra: #B86B4B;
+  --gold: #8FAF95;
+  --gold-deep: #1F4A44;
+  --terra: #1F6E5C;
   --sage: #8FAF95;
   --sage-pale: #E4EEE7;
   --rule: #E3D6BC;
@@ -29,8 +29,8 @@ body {
 
 /* Nav */
 header.site {
-  border-bottom: 1px solid var(--rule);
-  background: var(--paper);
+  border-bottom: 1px solid var(--ink-deep);
+  background: var(--ink);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -53,13 +53,13 @@ header.site {
   font-weight: 600;
   font-size: 1.3rem;
   text-decoration: none;
-  color: var(--ink);
+  color: var(--paper);
 }
 .wordmark img { width: 34px; height: 34px; }
-.wordmark span { color: var(--gold-deep); }
+.wordmark span { color: var(--sage); }
 nav.main a {
-  color: var(--ink);
-  opacity: 0.72;
+  color: var(--paper);
+  opacity: 0.78;
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: 500;
@@ -67,7 +67,7 @@ nav.main a {
   transition: opacity 150ms ease-out;
 }
 nav.main a:hover { opacity: 1; }
-nav.main a[aria-current="page"] { opacity: 1; border-bottom: 2px solid var(--gold); padding-bottom: 2px; }
+nav.main a[aria-current="page"] { opacity: 1; border-bottom: 2px solid var(--sage); padding-bottom: 2px; }
 
 main { max-width: 1080px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
 
