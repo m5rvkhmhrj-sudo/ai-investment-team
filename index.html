@@ -5,12 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Investment Team · Northeastern University</title>
 <meta name="description" content="AI Investment Team is a student-run research group at Northeastern University pairing fundamental value investing with AI-assisted research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="assets/ainu-bulb.png">
 </head>
 <body>
 <header class="site">
   <div class="nav-inner">
-    <a class="wordmark" href="index.html">AI<span>&nbsp;Investment&nbsp;Team</span></a>
+    <a class="wordmark" href="index.html"><img src="assets/ainu-bulb.png" alt="" width="34" height="34">AI<span>&nbsp;Investment&nbsp;Team</span></a>
     <nav class="main">
       <a href="index.html" aria-current="page">Home</a>
       <a href="strategy.html">Strategy</a>
@@ -35,7 +39,7 @@
   <p>Small companies with little analyst coverage are where prices drift furthest from value. Most funds cannot afford to look there. We can, because our research cost per name is close to zero. The bottleneck moves from reading filings to exercising judgment, which is exactly what we want members practicing.</p>
 
   <h2>Latest memos</h2>
-  <div class="pitch-list" id="latest">
+  <div class="pitch-list" id="latest" data-skeleton>
     <a class="pitch" href="memos/JXN.html">
       <div class="pitch-kicker">NYSE: JXN · July 2026</div>
       <div class="pitch-title">Jackson Financial: paying 4.6x earnings for a buyback machine</div>
@@ -60,5 +64,6 @@
     <div><a href="apply.html">Apply</a> · <a href="mailto:aiinvestmentteam@northeastern.edu">Contact</a></div>
   </div>
 </footer>
+<script src="assets/motion.js" defer></script>
 </body>
 </html>
